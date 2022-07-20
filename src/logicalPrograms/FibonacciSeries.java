@@ -15,20 +15,20 @@ public class FibonacciSeries {
 		 * it'll print 10 values in fibonacci series
 		 */
 		System.out.println("Welcome to Fibonacci Series Program");
-//		int firstNumber,secondNumber,nextNumber;
-//		Scanner sc = new Scanner(System.in);
-//		System.out.println("Enter firstNumber");
-//		firstNumber = sc.nextInt();
-//		System.out.println("Enter secondNumber");
-//		secondNumber = sc.nextInt();
-//		System.out.println("\nThe Fibonacci series upto 10 count ");
-//		System.out.println(firstNumber+"\n"+secondNumber);
-//		for (int i=1;i<=10;i++) {
-//			nextNumber = firstNumber+secondNumber;
-//			firstNumber=secondNumber;
-//			secondNumber=nextNumber;
-//			System.out.println(nextNumber);
-//		}
+		int firstNumber,secondNumber,nextNumber;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter firstNumber");
+		firstNumber = sc.nextInt();
+		System.out.println("Enter secondNumber");
+		secondNumber = sc.nextInt();
+		System.out.println("\nThe Fibonacci series upto 10 count ");
+		System.out.println(firstNumber+"\n"+secondNumber);
+		for (int i=1;i<=10;i++) {
+			nextNumber = firstNumber+secondNumber;
+			firstNumber=secondNumber;
+			secondNumber=nextNumber;
+			System.out.println(nextNumber);
+		}
 
 	}
 
